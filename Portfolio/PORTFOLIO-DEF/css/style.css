@@ -1,0 +1,615 @@
+/* Button */
+
+.btn-primary,
+.btn-primary-1,
+.btn-primary-2,
+.btn-primary-3,
+.btn-primary-4,
+.btn-primary-5,
+.btn-primary-6,
+.btn-primary-7,
+.btn-primary-8,
+.btn-primary-9,
+.btn-primary-10,
+.btn-primary-11,
+.btn-primary-12 {
+  background-color: #182a47 !important;
+  border-color: #fe9000 !important;
+  border-width: thick;
+  color: #fff !important;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary-1:hover,
+.btn-primary-1:focus,
+.btn-primary-1:active,
+.btn-primary-2:hover,
+.btn-primary-2:focus,
+.btn-primary-2:active,
+.btn-primary-3:hover,
+.btn-primary-3:focus,
+.btn-primary-3:active,
+.btn-primary-4:hover,
+.btn-primary-4:focus,
+.btn-primary-4:active,
+.btn-primary-5:hover,
+.btn-primary-5:focus,
+.btn-primary-5:active,
+.btn-primary-6:hover,
+.btn-primary-6:focus,
+.btn-primary-6:active,
+.btn-primary-7:hover,
+.btn-primary-7:focus,
+.btn-primary-7:active,
+.btn-primary-8:hover,
+.btn-primary-8:focus,
+.btn-primary-8:active,
+.btn-primary-9:hover,
+.btn-primary-9:focus,
+.btn-primary-9:active,
+.btn-primary-10:hover,
+.btn-primary-10:focus,
+.btn-primary-10:active,
+.btn-primary-11:hover,
+.btn-primary-11:focus,
+.btn-primary-11:active .btn-primary-12:hover,
+.btn-primary-12:focus,
+.btn-primary-12:active {
+  background-color: #fe9000 !important;
+  border-color: #182a47 !important;
+}
+
+.margine {
+  margin-bottom: 80px;
+}
+
+/* Side-bar */
+
+#sidebar-wrapper {
+  background: #182a47;
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #fe9000;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: white;
+  background: #fe9000;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Menu-toggle */
+
+.menu-toggle {
+  color: white;
+  background: #fe9000;
+}
+
+.menu-toggle:focus,
+.menu-toggle:hover {
+  color: #fff;
+}
+
+.menu-toggle:hover {
+  background: #343a40;
+}
+
+/* Sezione elaborati */
+
+.container-sfondo {
+  padding: 190px;
+}
+
+/* Portfolio */
+
+.portfolio-item .caption .caption-content h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item .caption .caption-content p {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.portfolio-item:hover .caption {
+  background-color: rgba(254, 144, 0, 0.3);
+}
+
+/* Non so come chiamarlo */
+
+.display-4 {
+  font-weight: bold;
+  color: #fe9000;
+}
+
+.testo1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Arredo che fa più eco */
+
+.masthead-1 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/arredo-eco-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-1 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-1 {
+    height: 100vh;
+  }
+
+  .masthead-1 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* SOS Incendio alberi */
+
+.masthead-2 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/sos-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-2 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-2 {
+    height: 100vh;
+  }
+
+  .masthead-2 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Infografica risparmio acqua */
+
+.masthead-3 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/goccia-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-3 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-3 {
+    height: 100vh;
+  }
+
+  .masthead-3 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Un giro di Valzer */
+
+.masthead-4 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/valzer-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-4 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-4 {
+    height: 100vh;
+  }
+
+  .masthead-4 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Un'esplosione POP */
+
+.masthead-5 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/pop-art-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-5 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-5 {
+    height: 100vh;
+  }
+
+  .masthead-5 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* 30° anniversario della caduta del.. */
+
+.masthead-6 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/wall-3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-6 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-6 {
+    height: 100vh;
+  }
+
+  .masthead-6 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Ragazzi in gamba */
+
+.masthead-7 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/ragazzi-in-gamba-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-7 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-7 {
+    height: 100vh;
+  }
+
+  .masthead-7 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Sicurezza della rete */
+
+.masthead-8 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/security-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-8 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-8 {
+    height: 100vh;
+  }
+
+  .masthead-8 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Io resto a casa */
+
+.masthead-9 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/stay-home-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-9 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-9 {
+    height: 100vh;
+  }
+
+  .masthead-9 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Selfie.. di classe */
+
+.masthead-10 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/selfie-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-10 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-10 {
+    height: 100vh;
+  }
+
+  .masthead-10 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* L'arte in viaggio */
+
+.masthead-11 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/art-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-11 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-11 {
+    height: 100vh;
+  }
+
+  .masthead-11 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* Maestri distanti-vicini */
+
+.masthead-12 {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/maestri-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead-12 h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  .masthead-12 {
+    height: 100vh;
+  }
+
+  .masthead-12 h1 {
+    font-size: 4.5rem;
+  }
+}
+
+.btn-primary-3 {
+  background-color: #182a47 !important;
+  border-color: #fe9000 !important;
+  border-width: thick;
+  color: #fff !important;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.btn-primary-3:hover,
+.btn-primary-3:focus,
+.btn-primary-3:active {
+  background-color: #fe9000 !important;
+  border-color: #182a47 !important;
+}
+
+/* Sezione(sfondo) */
+
+.content-section {
+  background-color: whitesmoke;
+}
+
+/* Footer */
+
+footer.footer {
+  background-color: #182a47;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+footer.footer .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #fe9000;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer.footer .social-link:hover {
+  background-color: #cc7606;
+  text-decoration: none;
+}
+
+/* Scroll to top */
+
+.scroll-to-top {
+  background: #fe9000;
+}
+
+.scroll-to-top:focus, 
+.scroll-to-top:hover {
+  color: white;
+}
+
+.scroll-to-top:hover {
+  background: #343a40;
+}
